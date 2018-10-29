@@ -229,7 +229,7 @@ Let's now call the partials in the layout:
 
 Rails will automatically look in the folder `app/views/application/` for a file that is called by the name given to the method `render` with an underscore prefix.
 
-##Independent Practice (You Do) (20 mins)
+## Independent Practice (You Do) (20 mins)
 
 Create a Rails app called `fanzine`. This app will have a controller called `home` and four routes called:
 
