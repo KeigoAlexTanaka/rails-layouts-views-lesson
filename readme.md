@@ -28,12 +28,7 @@ competencies: Server Applications
 
 In this lesson we will cover the details of rendering views and best practices for keeping the views DRY.
 
-
-With Sinatra, we've seen that if there is a file called `layout.erb`, this file will be used as the app layout by default.
-
-If this file `layout.erb` contains a yield statement `<%= yield %>`, then the template rendered for the current route will be "injected" where the yield statement is in the layout.  Combined, the templates and layouts will be sent back to the client.
-
-This logic is pretty much the same with Ruby on Rails. When the app is created, Rails will automatically add a layout `application.html.erb` in `app/views/layouts/application.html.erb`. This layout already contains a yield statement and all the links to css and js files in the head part of the html document.
+When an app is created, Rails automatically adds a layout `application.html.erb` in `app/views/layouts/application.html.erb`. This layout already contains a yield statement and all the links to css and js files in the head part of the html document.
 
 ## Using views with Rails - Demo (20 mins)
 
